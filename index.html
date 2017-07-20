@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Kandi spritesheet</title>
+
+    <style>
+        body {
+            text-align: center;
+            /*background-color: rgba(52,73,94,0.7);*/
+        }
+        select {
+            width: 150px;
+            height: 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1> My Javascript spritesheet animator </h1>
+    <br />
+    <canvas id="canvas" width="320" height="240" style="border: 5px solid #34495E; background-color: #fff;"></canvas>
+    <br />
+    
+    <label> Sprite selector: </label>
+    <select id="spriteselector" onchange="ssFunction()">
+        <option value="1"> Kandi </option>
+        <option value="2"> Bot </option>
+        <option value="3"> Goblin </option>
+        <option value="4"> Nohat </option>
+    </select>
+
+    <script type="text/javascript" src="kandi.js"></script>
+</body>
+</html>
