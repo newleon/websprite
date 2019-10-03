@@ -65,9 +65,9 @@ function ssFunction() {
 }
 
 
-mySpriteSheet = new SpriteSheet("kandi2.png", 125, 125, 2, 16);
+//mySpriteSheet = new SpriteSheet("kandi2.png", 125, 125, 2, 16);
 //mySpriteSheet = new SpriteSheet("kandi.png", 60, 96, 2, 16); // 60,90
-//mySpriteSheet = new SpriteSheet("volt.png", 180, 495 / 2, 2, 10);
+mySpriteSheet = new SpriteSheet("volt.png", 180, 495 / 2, 2, 10);
 //mySpriteSheet = new SpriteSheet("run.png", 900 / 6, 600 / 4, 2, 24);
 
 function animate() {
